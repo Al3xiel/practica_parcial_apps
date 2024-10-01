@@ -1,5 +1,46 @@
-# Vue 3 + Vite
+# Setup commands: 
+``
+npm install
+``
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+``
+npm install dotenv
+``
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+``
+npm install primevue
+``
+
+``
+npm install @primevue/themes
+``
+
+``
+npm install primeicons
+``
+
+``
+npm install primeflex
+``
+
+``
+npm install axios
+``
+
+``
+npm install vue-i18n@10
+``
+
+``
+npm install json-server@0.17.4
+``
+
+``
+npm install vue-router
+``
+
+Command to star j-son server: 
+
+``
+json-server --watch server/db.json --routes server/routes.json
+``
