@@ -16,5 +16,7 @@ export default defineComponent({
 </template>
 
 <style scoped>
-
+  .main-content {
+    margin-top: 64px;
+  }
 </style>

@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <h1>“Examiner Performance Overview</h1>
+  <h1>{{$t('pages.examinerPerformanceOverview.title')}}</h1>
   <examiner-card-list/>
 </template>
 

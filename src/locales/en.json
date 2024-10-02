@@ -1,4 +1,12 @@
 {
+  "pages": {
+    "home": {
+      "title": "Welcome to HIGN"
+    },
+    "examinerPerformanceOverview": {
+      "title": "Examiner Performance Overview"
+    }
+  },
   "homeCard": {
     "cardTitle": "Mental State Exam Analytics",
     "cardSubtitle": "Score Analytics",
@@ -12,5 +20,11 @@
     "cardSubtitle": "Mental State Exam Performance",
     "examAssignedCount": " Current Assigned Mental State Exam Count:",
     "averageAssignedExamTotal": " Average Assigned Mental State Exam Total Score:"
+  },
+  "pageNotFound":
+  {
+    "return": "Return to the home page",
+    "message1": "The page",
+    "message2": "does not exist."
   }
 }

@@ -1,4 +1,12 @@
 {
+  "pages": {
+    "home": {
+      "title": "Bienvenido a HIGN"
+    },
+    "examinerPerformanceOverview": {
+        "title": "Descripción general del desempeño del examinador"
+    }
+  },
   "homeCard": {
     "cardTitle": "Análisis del Examen del Estado Mental",
     "cardSubtitle": "Análisis de Puntuaciones",
@@ -12,5 +20,11 @@
     "cardSubtitle": "Desempeño del Examen del Estado Mental",
     "examAssignedCount": "Cantidad Actual de Exámenes de Salud Mental Asignados:",
     "averageAssignedExamTotal": "Promedio de Calificación Total de Exámenes de Salud Mental Asignados:"
+  },
+  "pageNotFound":
+  {
+    "return": "Regresar a la página de inicio",
+    "message1": "La página",
+    "message2": "no existe."
   }
 }

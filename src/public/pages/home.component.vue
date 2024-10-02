@@ -50,8 +50,8 @@ export default {
 </script>
 
 <template>
-  <h1>Welcome to HIGN</h1>
-  <pv-card class="card">
+  <h1>{{$t('pages.home.title')}}</h1>
+  <pv-card>
     <template #title>{{$t('homeCard.cardTitle')}}</template>
     <template #subtitle>{{$t('homeCard.cardSubtitle')}}</template>
     <template #content>
@@ -66,9 +66,5 @@ export default {
 </template>
 
 <style scoped>
-  .card{
-    background: #D1E4FA;
-    border-radius: 10px;
-    color: black;
-  }
+
 </style>

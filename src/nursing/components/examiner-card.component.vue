@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <pv-card>
+  <pv-card class="examiner-card">
     <template #header>
       {{examiner.firstName}} {{examiner.lastName}}
     </template>
@@ -32,5 +32,4 @@ export default {
 </template>
 
 <style scoped>
-
 </style>

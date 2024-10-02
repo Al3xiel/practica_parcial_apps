@@ -70,7 +70,12 @@ export default {
 <style scoped>
 .card-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
+}
+.card-container > * {
+  flex: 1 1 calc(50% - 1rem);
+  max-width: calc(50% - 1rem);
 }
 </style>

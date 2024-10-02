@@ -32,7 +32,7 @@ export default {
       <template #end>
         <div>
           <router-link v-for="item in items" :keys="item.label" v-slot="{navigate, href}" :to="item.to" custom>
-            <pv-button :href="href" class="custom-button" @click="navigate" text plain><p style="margin:0;">{{item.label}}</p></pv-button>
+            <pv-button :href="href" severity="secondary" class="custom-button" @click="navigate" text plain><p style="margin:0;">{{item.label}}</p></pv-button>
           </router-link>
         </div>
         <language-switcher/>
