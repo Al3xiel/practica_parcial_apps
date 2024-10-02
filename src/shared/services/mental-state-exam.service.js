@@ -1,4 +1,4 @@
-import http from "./http-common.js";
+import http from "../../shared/services/http-common.js";
 
 export class MentalStateExamService {
     resourceEndpoint = '/mental-state-exams';
