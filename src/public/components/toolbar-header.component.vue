@@ -55,5 +55,6 @@ export default {
   }
   .custom-button p{
     color: black;
+    background-color: #D1E4FA;
   }
 </style>
