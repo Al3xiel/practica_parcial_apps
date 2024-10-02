@@ -8,7 +8,7 @@ export class MentalStateExam {
         registrationScore = 0,
         attentionAndCalculationScore = 0,
         recallScore = 0,
-        languageScore = 0
+        languageScore = 0,
     ) {
         this.id = id;
         this.patientId = patientId;
