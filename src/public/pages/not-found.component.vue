@@ -11,6 +11,9 @@ export default {
 
 <template>
   <h1>{{$t('pageNotFound.message1')}} {{currentRoute}} {{$t('pageNotFound.message2')}}</h1>
+  <router-link to="/home">
+    <button>{{$t('pageNotFound.return')}}</button>
+  </router-link>
 </template>
 
 <style scoped>

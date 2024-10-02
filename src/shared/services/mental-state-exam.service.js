@@ -10,4 +10,8 @@ export class MentalStateExamService {
     getById(id) {
         return http.get(`${this.resourceEndpoint}/${id}`);
     }
+
+    getExamsByExaminerId(examinerId) {
+        return http.get(`${this.resourceEndpoint}?examinerId=${examinerId}`);
+    }
 }
