@@ -1,3 +1,10 @@
 {
-
+  "homeCard": {
+    "cardTitle": "Mental State Exam Analytics:",
+    "cardSubtitle": "Score Analytics:",
+    "examCount": "Exam Count:",
+    "highestScore": "Highest Score:",
+    "lowestScore": "Lowest Score:",
+    "averageScore": "Average Score:"
+  }
 }

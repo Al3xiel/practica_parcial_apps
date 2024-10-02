@@ -1,3 +1,10 @@
 {
-
+  "homeCard": {
+    "cardTitle": "Análisis del Examen del Estado Mental:",
+    "cardSubtitle": "Análisis de Puntuaciones:",
+    "examCount": "Cantidad de Exámenes:",
+    "highestScore": "Puntuación Más Alta:",
+    "lowestScore": "Puntuación Más Baja:",
+    "averageScore": "Puntuación Promedio:"
+  }
 }
