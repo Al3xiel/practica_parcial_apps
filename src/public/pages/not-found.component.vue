@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "toolbar"
+  name: "not-found"
 }
 </script>
 
