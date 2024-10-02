@@ -24,7 +24,10 @@ export default {
     getExamsCount() {
       this.examsCount = [];
       this.examiners.forEach((examiner, index) => {
-        this.examsCount[index] = this.exams.filter(exam => exam.examinerId === examiner.id).length;
+        //this.examsCount[index] = this.exams.filter(exam => exam.examinerId === examiner.id).length;
+        this.mentalStateExamService.getExamsByExaminerId(examiner.id).then(response => {
+          this.examsCount[index] = response.data.length;
+        }).catch(error => console.error(error));
       });
     },
     getAveragesTotalScores() {
