@@ -1,10 +1,16 @@
 {
   "homeCard": {
-    "cardTitle": "Mental State Exam Analytics:",
-    "cardSubtitle": "Score Analytics:",
+    "cardTitle": "Mental State Exam Analytics",
+    "cardSubtitle": "Score Analytics",
     "examCount": "Exam Count:",
     "highestScore": "Highest Score:",
     "lowestScore": "Lowest Score:",
     "averageScore": "Average Score:"
+  },
+  "examinerCard": {
+    "cardTitle": "NPI - ",
+    "cardSubtitle": "Mental State Exam Performance",
+    "examAssignedCount": " Current Assigned Mental State Exam Count:",
+    "averageAssignedExamTotal": " Average Assigned Mental State Exam Total Score:"
   }
 }

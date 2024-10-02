@@ -1,10 +1,16 @@
 {
   "homeCard": {
-    "cardTitle": "Análisis del Examen del Estado Mental:",
-    "cardSubtitle": "Análisis de Puntuaciones:",
+    "cardTitle": "Análisis del Examen del Estado Mental",
+    "cardSubtitle": "Análisis de Puntuaciones",
     "examCount": "Cantidad de Exámenes:",
     "highestScore": "Puntuación Más Alta:",
     "lowestScore": "Puntuación Más Baja:",
     "averageScore": "Puntuación Promedio:"
+  },
+  "examinerCard": {
+    "cardTitle": "INP - ",
+    "cardSubtitle": "Desempeño del Examen del Estado Mental",
+    "examAssignedCount": "Cantidad Actual de Exámenes de Salud Mental Asignados:",
+    "averageAssignedExamTotal": "Promedio de Calificación Total de Exámenes de Salud Mental Asignados:"
   }
 }
