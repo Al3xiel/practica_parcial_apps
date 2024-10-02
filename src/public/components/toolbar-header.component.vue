@@ -53,8 +53,7 @@ export default {
     z-index: 1000;
     height: fit-content;
   }
-
-  .custom-button {
-    margin: 20px;
+  .custom-button p{
+    color: black;
   }
 </style>
